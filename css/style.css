@@ -1,23 +1,34 @@
 body {
   font-family: "Montserrat";
+  text-align: center;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat';
-  font-weight: Black;
+}
+
+/* Heading */
+.big-heading {
+  font-weight: Bold;
   font-size: 3.5rem;
   line-height: 1.5;
+  color: #fff;
 }
 
+.section-heading {
+  font-weight: Bold;
+  font-size: 3rem;
+}
+
+/* Title Section */
 #title {
   background-color: #ff4c68;
-  color: #fff;
+  text-align: left;
 }
 
 /* Navigation Bar */
 .navbar {
   padding: 0 0 10%;
-  
 }
 
 .navbar-brand {
@@ -32,7 +43,6 @@ h1 {
 
 .nav-link {
   font-size: 1.4rem;
-  font-family: "Montserrat";
   font-weight: bold;
 }
 
@@ -59,18 +69,16 @@ h1 {
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
-.h3Features {
-  font-family: "Montserrat";
+.h3-Features {
   font-weight: bold;
   font-size: 1.4rem;
   color: black;
 }
 
-.pFeatures {
+.p-Features {
   color: #8f8f8f;
 }
 
@@ -85,13 +93,11 @@ h1 {
 
 /* Testimonials Section */
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
 
 .testimonial-text {
-  font-family: "Montserrat";
   font-weight: bold;
   font-size: 3rem;
   line-height: 1.5;
@@ -110,7 +116,6 @@ h1 {
 /* Press Section */
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 5%;
 }
 
@@ -121,7 +126,6 @@ h1 {
 
 /* Pricing Section */
 #pricing {
-  text-align: center;
   padding: 100px;
 }
 
@@ -129,14 +133,12 @@ h1 {
   padding: 3% 2%;
 }
 
-.pricingh3 {
-  font-family: "Montserrat";
+.pricing-h3 {
   font-size: 2rem;
   font-weight: bold;
 }
 
-.pricingh2 {
-  font-family: "Montserrat";
+.pricing-h2 {
   font-size: 2rem;
   font-weight: bold;
 }
@@ -156,21 +158,10 @@ h1 {
 /* Call to Action Section */
 #cta {
   background-color: #ff4c68;
-  text-align: center;
   padding: 10% 15%;
 }
 
-.ctah3 {
-  font-family: "Montserrat";
-  font-weight: bold;
-  color: #fff;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  margin-bottom: 50px;
-  padding-top: 5%;
-
-}
-.downloadbuttoncta{
+.download-button-cta {
   margin: 5% 3% 5% 0;
   width: 180px;
   margin-top: 5%;
@@ -180,15 +171,15 @@ h1 {
 /* Footer */
 #footer {
   background-color: #fff;
-  text-align: center;
   margin-top: 20%;
-
 }
-.pfooter{
+
+.p-footer {
   font-size: 1.8rem;
   font-weight: bold;
   color: gray;
 }
-.fontawfooter{
+
+.font-aw-footer {
   margin: 20px 10px;
 }
