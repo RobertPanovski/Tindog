@@ -22,10 +22,24 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Title Section */
 #title {
-  background-color: #ff4c68;
   text-align: left;
 }
-
+/* Sections */
+#press.colored-section{
+  background-color: #ef8172;
+}
+#testimonials.colored-section{
+  background-color: #ef8172;
+  color: #fff;
+}
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+  color: black;
+}
 /* Navigation Bar */
 .navbar {
   padding: 0 0 10%;
@@ -45,7 +59,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.4rem;
   font-weight: bold;
 }
-
+/* Container section */
+#title .container-fluid{
+  padding: 3% 15% 5%;
+}
+.container-fluid{
+  padding: 10% 15%;
+}
 /* Download Buttons */
 .downloadbutton {
   margin: 5% 3% 5% 0;
@@ -63,7 +83,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Features Section */
 #features {
-  background-color: #fff;
   z-index: 1;
   position: relative;
 }
@@ -92,11 +111,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Testimonials Section */
-#testimonials {
-  background-color: #ef8172;
-  color: #fff;
-}
 
+.carousel-item {
+  padding: 10% 15%;
+}
 .testimonial-text {
   font-weight: bold;
   font-size: 3rem;
@@ -109,13 +127,8 @@ h1, h2, h3, h4, h5, h6 {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 10% 15%;
-}
-
 /* Press Section */
 #press {
-  background-color: #ef8172;
   padding-bottom: 5%;
 }
 
@@ -156,10 +169,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Call to Action Section */
-#cta {
-  background-color: #ff4c68;
-  padding: 10% 15%;
-}
 
 .download-button-cta {
   margin: 5% 3% 5% 0;
@@ -170,7 +179,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 #footer {
-  background-color: #fff;
   margin-top: 20%;
 }
 
